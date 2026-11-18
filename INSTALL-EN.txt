@@ -1,0 +1,49 @@
+﻿TMNT Community Launcher 1.0.3
+An unofficial portable launcher for Teenage Mutant Ninja Turtles (PC, 2003).
+
+Extract TMNTLauncher.exe next to TMNT.EXE, open it, choose a resolution,
+fullscreen/borderless/windowed mode and vertical sync, then press Play.
+The launcher remembers your choices. RU and EN interfaces are included.
+Skip intro skips the boot logos and opening movie; story movies remain available.
+
+Compatibility: the tested Russian 2003 PC build, 2150400 bytes, and the two
+previously prepared patches of that build. Unknown EXEs are refused without
+modification. File size alone does not establish compatibility. Supported hashes:
+bc49a82c8234fb80ac071ad43698598cfa104c363688ed12d248b89b7573093e
+aaa7a7bffe288d2591310083b1bd1d099ba9e1760a2d3d5a1e484e8659b3c826
+15517590aed0c4f256eb1e3789f026236b28f4fa87ad1337d97ad56db34d2d86
+
+Requires Windows 10/11 and .NET Framework 4.8. No Python, PowerShell, graphics
+wrapper, administrator privileges or network connection is required at runtime.
+The game folder must be writable. Other releases and the 2007 game are not
+supported yet.
+
+Resolutions come from the primary display driver. Framed windows are limited
+to the available desktop area. Borderless windows use the selected resolution;
+choose Desktop to fill the screen. Resolutions through 2560x1440 were tested;
+higher driver-supported modes are available but not fully tested.
+HUD proportions and camera FOV are unchanged. Game simulation is not uncapped.
+VSync changes the game's frame presentation request; driver overrides and the
+Windows desktop compositor can affect the visible result in windowed modes.
+
+If savesetting.dat is missing, First run starts the game without applying new
+settings. Open the game's options and save them, close the game and return.
+No other player's controls or settings are bundled.
+
+The launcher edits only TMNT.EXE and display fields in savesetting.dat.
+Save games and control bindings are preserved. TMNTLauncherData contains the
+original backups, receipt and saved launcher profile. Keep that folder until
+you restore. Restore EXE returns the version present before the first launcher
+run and the old display settings, preserving current controls and progress.
+Legacy CMD patchers do not recognize the new launcher-managed EXE variants.
+Use this launcher or restore the previous EXE first.
+
+The distributable includes no game executable, game assets, saved progress,
+personal settings or backups. Source and original launcher artwork are MIT
+licensed. See SOURCE/README_SOURCE.txt for building and verification.
+The executable is unsigned. SHA-256 checksums are included in SHA256SUMS.txt.
+This fan project is not affiliated with Konami, Nickelodeon or the TMNT owners.
+
+Author / Автор: x23sunder — https://boosty.to/x23sunder/
+
+Language: use the RU / EN buttons at the top right. Your choice is saved immediately without starting the game.

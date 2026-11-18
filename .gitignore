@@ -1,0 +1,8 @@
+*.exe
+*.dll
+*.zip
+*.pdb
+*.log
+*.key
+*.pem
+.env*
